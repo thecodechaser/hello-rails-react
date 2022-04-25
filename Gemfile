@@ -74,7 +74,7 @@ gem 'rswag'
 
 gem 'rspec-core', '~> 3.4', '>= 3.4.4'
 
-# rails-react 
+# rails-react
 
 gem 'react-rails'
 
