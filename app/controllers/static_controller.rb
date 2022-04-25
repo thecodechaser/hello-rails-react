@@ -1,6 +1,6 @@
-def StaticController < ApplicationController
-def index
+class StaticController < ApplicationController
 
-end
+  def index
+  end
 
 end
