@@ -8,11 +8,14 @@ const Greeting =() => {
   useEffect(() => {
       dispatch(fetchGreetingApi());
   }, [dispatch]);
+
+  const refreshPage = () =>{
+    window.location.reload(false);
+  }
     return (
-        <div>
-        {
-          greeting
-        }
+        <div className="mt-20 flex flex-col items-center">
+          <p className=" font-bold">{ greeting }</p>
+          <button onClick={refreshPage} className="bg-sky-500 p-2 mt-4 rounded text-slate-50">Get another greeting</button>
       </div>
     );
 }

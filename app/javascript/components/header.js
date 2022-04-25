@@ -16,14 +16,14 @@ const Header = ()=>{
   ];
   return (
     <header className="flex justify-between my-4 mx-12">
-      <h1 className="text-2xl">Greetings</h1>
+      <a href="/" className="text-2xl font-bold text-sky-500">Greetings</a>
 
       <nav>
         <ul className="flex gap-4">
           {
           links.map((link) => (
             <li key={link.id}>
-              <NavLink to={link.path} className="nav-item">{link.text}</NavLink>
+              <NavLink to={link.path} className="bg-sky-500 p-2 rounded text-slate-50">{link.text}</NavLink>
             </li>
           ))
         }
