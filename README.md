@@ -22,10 +22,6 @@
 - Markup (HTML)
 - Styles (CSS, Tailwind)
 
-## Live version
-
-- Visit [Recipe-App]()
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
@@ -63,6 +59,7 @@ Setup database with:
 ```
 rails db:create
 rails db:migrate
+rails db:seed
 ```
 
 Install dependencies
